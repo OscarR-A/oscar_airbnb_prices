@@ -54,7 +54,7 @@ bedroom_counts = property_data_over_90['bedrooms'].value_counts()
 bedroom_counts
 ```
 
-more stuff about sample size and what constitutes a good sample - here we went for anything over 1000, as the rule is 10% of your sample size, if it does not exceed 1000 - ours did, so we went for 1000. and how graph below which only looks at bedrooms with at most 4
+More stuff about sample size and what constitutes a good sample - here we went for anything over 1000, as the rule is 10% of your sample size, if it does not exceed 1000 - ours did, so we went for 1000. and how graph below which only looks at bedrooms with at most 4.
 
 ```{python}
 mean_price_per_bedroom[:4].plot()
